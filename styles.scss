@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sevillana&family=Zen+Maru+Gothic&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header {
+  background: #178a3d;
+  color: #fff;
+  height: 100px;
+  padding: 0 30px;
+
+  .logo {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    .icon {
+      width: 50px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .title {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+
+      .name {
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .menu {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 800px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 30px;
+      font-size: 18px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.intro-section {
+  background: linear-gradient(#199b3a, #157f31);
+  padding: 50px 30px;
+  color: #fff;
+
+  .intro {
+    display: inline-block;
+    width: 50%;
+    height: 450px;
+
+    vertical-align: top;
+    padding-top: 30px;
+
+    h1 {
+      width: 330px;
+      font-size: 45px;
+      font-weight: bold;
+      margin-bottom: 50px;
+
+      .highlight {
+        color: #fb923c;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+
+    .buttons {
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+
+        text-decoration: none;
+        border-radius: 4px;
+        margin-right: 10px;
+        .img-car {
+          width: 50px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        &.primary {
+          background: #f4511e;
+          color: #fff;
+        }
+
+        &.secondary {
+          border: 2px solid #fff;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .ofertas {
+    display: inline-block;
+    width: 40%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #333;
+    margin-left: 5%;
+
+    h2 {
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .produtos {
+      .produto {
+        display: inline-block;
+        width: 45%;
+        background: #fff0e0;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+
+        p {
+          margin: 0;
+        }
+
+        h3 {
+          color: #178a3d;
+        }
+      }
+    }
+  }
+}
+
+.beneficios {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 50px 20px;
+
+  h2 {
+    font-size: 28px;
+    color: #1f2937;
+    margin-bottom: 10px;
+
+    .highlight {
+      color: #f4511e;
+    }
+  }
+
+  p {
+    color: #6b7280;
+    margin-bottom: 30px;
+  }
+
+  .cards {
+    display: block;
+    text-align: center;
+
+    .card {
+      display: inline-block;
+      width: 400px;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      vertical-align: top;
+
+      .icon {
+        font-size: 30px;
+        margin-bottom: 15px;
+      }
+
+      h3 {
+        margin: 10px 0;
+        font-size: 20px;
+      }
+
+      p {
+        color: #4b5563;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.produtos {
+  text-align: center;
+  padding: 50px 20px;
+
+  h2 {
+    font-size: 28px;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #6b7280;
+    margin-bottom: 30px;
+  }
+
+  .produtos-lista {
+    display: block;
+
+    .produto {
+      display: inline-block;
+      width: 250px;
+      height: 150px;
+      color: #fff;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      text-align: center;
+      vertical-align: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h3 {
+        margin: 5px 0;
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+        color: white;
+      }
+    }
+
+    .padaria {
+      background-image: url("./img/padaria.png");
+    }
+
+    .hortifruti {
+      background-image: url("./img/hortifruti.png");
+    }
+
+    .carnes {
+      background-image: url("./img/carne.png");
+    }
+
+    .graos {
+      background-image: url("./img/grao.png");
+    }
+  }
+}
+
+.ofertas {
+  background-color: #fff7ed;
+  text-align: center;
+  padding: 50px 20px;
+
+  h2 {
+    font-size: 28px;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #6b7280;
+    margin-bottom: 30px;
+  }
+
+  .ofertas-lista {
+    display: block;
+
+    .oferta {
+      display: inline-block;
+      width: 320px;
+      background: #fff;
+      border-radius: 10px;
+      margin: 10px;
+      height: 230px;
+      text-align: left;
+      vertical-align: top;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+      .desconto {
+        background: linear-gradient(#ef4444, #dc2626);
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+        padding: 0 10px 0 10px;
+        font-weight: bold;
+        width: 300px;
+
+        h3 {
+          display: inline-block;
+          margin-right: 5px;
+          color: white;
+        }
+
+        .icon {
+          margin-left: 160px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-bottom: 5px;
+        }
+      }
+
+      .oferta-detalhes {
+        margin-left: 10px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 15px 0 5px;
+        color: #111827;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 5px 0;
+      }
+
+      .preco-antigo {
+        text-decoration: line-through;
+        color: #6b7280;
+        margin-top: 15px;
+      }
+
+      .preco-novo {
+        color: #16a34a;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      button {
+        display: block;
+        background: #15803d;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #0c7135;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0px;
+
+  .footer-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .footer-subtitle {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .footer-info {
+    display: block;
+    margin-bottom: 30px;
+
+    .info-box {
+      display: inline-block;
+      width: 250px;
+      vertical-align: top;
+      margin: 0 20px;
+      text-align: center;
+
+      .info-icon {
+        width: 30px;
+        margin-bottom: 10px;
+      }
+
+      .info-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+
+        img {
+          width: 16px;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .footer-copy {
+    font-size: 16px;
+    padding-top: 40px;
+    border-top: 2px solid #16a34a;
+  }
+}
