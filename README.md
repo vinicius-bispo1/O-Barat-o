@@ -30,7 +30,6 @@ Todas as imagens e ícones são usados para complementar as informações import
 
 - **HTML5 Semântico**
 - **SCSS (Sass)** para organização, reutilização de estilos e modularidade
-- **Imagens em PNG/SVG** para ícones e decoração
 - **Sem uso de Flexbox ou Grid**: layout desenvolvido com `display: block`, `inline` e `inline-block`, além de `margin` e `padding` para espaçamento e alinhamento.
 
 ---
